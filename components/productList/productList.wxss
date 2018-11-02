@@ -1,0 +1,171 @@
+.productList .nav {
+    width: 100%;
+    height: 80rpx;
+    white-space: nowrap;
+    margin: 10rpx 0;
+}
+.swiperMain{
+    
+}
+.swiperSearch{
+    height: 100%;
+}
+.productList .swiperMain{
+    /*height: 100%;*/
+}
+.productList .swiperSearch{
+    height: calc( 100% - 220rpx );
+}
+.productList .nav .navLi {
+    height: 76rpx;
+    display: inline-block;
+    font-size: 28rpx;
+    color: #333;
+    line-height: 76rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    border-bottom: 4rpx solid #fff;
+}
+
+.productList .nav .navLiSwitch {
+    color: #FE564C;
+    border-bottom: 4rpx solid #FE564C;
+}
+
+.productList .swiper-li {
+    width: 100%;
+    height: 240rpx;
+    position: relative;
+}
+
+.productList .swiper-li .swiper-img {
+    margin: 10rpx;
+    width: 220rpx;
+    height: 220rpx;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.productList .swiper-li .swiper-view {
+    width: calc( 100% - 240rpx);
+    height: 100%;
+    margin-left: 240rpx;
+    border-bottom: 2rpx solid #EAEEEF;
+}
+
+.productList .swiper-name {
+    height: 86rpx;
+    font-size: 28rpx;
+    color: #36383F;
+}
+
+.productList .swiper-label {
+    height: 40rpx;
+}
+
+.productList .swiper-label view {
+    font-size: 20rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+    padding: 0 4rpx 0 4rpx;
+    margin-right: 10rpx;
+    float: left;
+}
+
+.productList .swiper-label .swiper-label-xg {
+    color: #fe564c;
+    border: 2rpx solid #fe564c;
+}
+
+/*.swiper-label-yys,
+.swiper-label-jsd,
+.swiper-label-hwg,
+.swiper-label-yyfw {
+    color: #B27F55;
+    border: 2rpx solid #B27F55;
+}*/
+
+.productList .swiper-price {
+    height: 60rpx;
+}
+
+.productList .swiper-price>view {
+    float: left;
+    font-size: 20rpx;
+    color: #FFF;
+}
+
+.productList .swiper-price .swiper-price-member {
+    font-size: 36rpx;
+    color: #FE564C;
+}
+
+.productList .swiper-price .swiper-price-member>view {
+    font-size: 24rpx;
+    display: inline-block;
+}
+
+.productList .swiper-price .swiper-price-img {
+    padding: 0 6rpx 0 6rpx;
+    margin: 15rpx 10rpx 0 10rpx;
+    background-image: linear-gradient(37deg, #FF4B41 0%, #FF9677 100%);
+    border-radius: 0 8rpx 0 8rpx;
+}
+
+.productList .swiper-price .swiper-price-normal {
+    font-size: 28rpx;
+    color: #333;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+
+.productList .swiper-evaluate {
+    margin-top: 10rpx;
+    height: 40rpx;
+}
+
+.productList .swiper-evaluate view {
+    font-size: 22rpx;
+    color: #999;
+    margin-right: 20rpx;
+    float: left;
+}
+
+.productList .swiper-shop {
+    width: 54rpx;
+    height: 54rpx;
+    position: absolute;
+    right: 20rpx;
+    bottom: 20rpx;
+    background: url("https://imgcdn.guoanshequ.com/pad/ssd2os3ekkjfzn5fsbo2x7eu6edj5ylj.png") no-repeat;
+    background-size: 100% 100%;
+}
+.productList .productListNone{
+    height: 80rpx;
+    position: relative;
+    background: #F8F8F8;
+}
+.productList .productListNone .noneText{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    text-align: center;
+    margin-left: -100rpx;
+    width: 200rpx;
+    font-size: 24rpx;
+    color: #BABABA;
+    background: #F8F8F8;
+    z-index: 10;
+}
+.productList .productListNone .noneBorder{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 340rpx;
+    margin-left: -170rpx;
+    border-top: 2rpx solid #bababa;
+}
+

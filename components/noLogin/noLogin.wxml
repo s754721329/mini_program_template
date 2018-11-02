@@ -1,0 +1,5 @@
+<view class='no_address' >
+  <image class="" src="https://imgcdn.guoanshequ.com/pad/59o2c2dvfv6bge7j438xni9ndj2rcg7m.png" mode="scaleToFill"></image>
+  <view>登录国安社区 开启安心好生活</view>
+  <navigator class="choose_address" url="/pages/login/wxLogin/wxLogin" open-type="navigate">登录</navigator>
+</view>

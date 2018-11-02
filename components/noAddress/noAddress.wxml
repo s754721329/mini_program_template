@@ -1,0 +1,5 @@
+<view class='no_address' >
+  <image class="" src="https://imgcdn.guoanshequ.com/pad/p296i4bwdv1zq9emq3hw766gfm92vlb9.png" mode="scaleToFill"></image>
+  <view>无法获取您的位置信息</view>
+  <view class="choose_address" bindtap="chooseAddress">选择地址</view>
+</view>  

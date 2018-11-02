@@ -1,0 +1,34 @@
+<view class='productList {{swiperClass}}' hidden="{{isShowProduct}}">
+	<scroll-view class="nav" scroll-x>
+	    <view class="navLi  {{ index == switchKey ? 'navLiSwitch' : '' }}" wx:key="{{index}}" id="{{index}}" wx:for="{{navList}}" data-content="{{item.content}}" data-search="{{item.id}}" bindtap="_switchNav">{{item.content}}</view>
+	</scroll-view>
+	<scroll-view class="{{swiperClass}}" scroll-y enable-back-to-top="true">
+		<view class="swiper-li" wx:for="{{productList}}" wx:key="{{index}}" id="{{item.id}}" bindtap="toProductDetail">
+		    <image class="swiper-img" src="{{item.content_img}}" mode="scaleToFill"></image>
+		    <view class="swiper-view">
+		        <view class="swiper-name">
+		            {{item.content_name}}
+		        </view>
+		        <view class="swiper-label">
+		            <view class="swiper-label-xg" wx:for="{{item.newTags}}" wx:key="{{index}}" wx:for-item="tagItem" style="color:{{tagItem.color}};border-color:{{tagItem.color}};">{{tagItem.label}}</view>
+		        </view>
+		        <view class="swiper-price">
+		            <view class="swiper-price-member">
+		                <view>￥</view>{{item.member_price}}
+		            </view>
+		            <view class="swiper-price-img">社员价</view>
+		            <view class="swiper-price-normal">￥{{item.price}}</view>
+		        </view>
+		        <view class="swiper-evaluate">
+		            <view class="swiper-evaluate-sold">已售{{item.sales}}</view>
+		            <view class="swiper-evaluate-praise">好评{{item.evaluate}}</view>
+		        </view>
+		    </view>
+		    <view class="swiper-shop" id="{{item.id}}" catchtap="addCart"></view>
+		</view>
+		<view class="productListNone">
+			<view class="noneText">没有更多了</view>
+			<view class="noneBorder"></view>
+		</view>
+	</scroll-view>
+</view>

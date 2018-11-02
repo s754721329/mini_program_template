@@ -1,0 +1,4 @@
+<view class='no_product' >
+  <image class="" src="https://imgcdn.guoanshequ.com/pad/c1ujcs1swnjitslh9wi87fu1s42nw8bv.png" mode="scaleToFill"></image>
+  <view>商品已不存在</view>
+</view>

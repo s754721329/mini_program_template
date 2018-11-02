@@ -1,0 +1,17 @@
+.no_product{
+  width: 100%;
+  height: 100%;
+}
+.no_product image{
+  width: 270rpx;
+  height: 270rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30%;
+}
+.no_product view{
+  font-size: 28rpx;
+  color: #666666;
+  text-align: center;
+  margin-top: 5%;
+}
